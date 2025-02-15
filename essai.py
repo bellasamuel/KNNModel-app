@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 
 # Chargement du fichier CSV
 
-df = pd.read_csv('iris.csv',delimiter=";")
+df = pd.read_csv('Iris.csv',delimiter=";")
 
 # Définition des colonnes des caractéristiques et de la cible
 feature_columns = ['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth']
